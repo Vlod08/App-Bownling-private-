@@ -15,3 +15,12 @@
 - **Framework CSS:** Tailwind CSS
 
 
+## Compétences
+- **Ikram:** Pas de préférence, ne connais pas C#, connais
+- **Maëva:** Préférence front, connais 
+- **Julie:** Préférence back, connais pas C#
+- **Lokeshwaran:** : Préférence back, ne connais pas C#
+
+
+
+
