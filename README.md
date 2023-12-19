@@ -18,10 +18,9 @@
 
 
 ## Compétences
-- **Ikram:** Pas de préférence, ne connais pas C#, connais
-- **Maëva:** Préférence front, connais techno front
-- **Julie:** Préférence back, connais pas C#
-- **Lokeshwaran:** : Préférence back, ne connais pas C#
+- **Ikram & Lokeshwaran:** Base C#
+- **Maëva:** Avancé en Front
+- **Julie:** Avancé en C#
 
 
 
