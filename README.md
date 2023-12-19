@@ -3,13 +3,15 @@
 ## Technologies utilisées
 - **Backend:** ASP.NET Core (C#)
 - **Frontend:** HTML, CSS, JS avec utilisation du framework Tailwind CSS.
+- **IDE préconisé:** Visual Studio Code
 
 ## Tests
 - **Framework de tests:** xUnit ou MSTest (à définir)
-- **Tests unitaires:** Utilisation de MSTest ou xUnit, en fonction des besoins du projet.
 
 ## Intégration Continue
-- **Outil d'intégration continue:** Jenkins ou GitLab (choix en cours)
+- **Outil d'intégration continue:** Jenkins ou GitLab (à définir)
 
 ## Framework Frontend
 - **Framework CSS:** Tailwind CSS
+
+
