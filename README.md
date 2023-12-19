@@ -1,5 +1,7 @@
 # Qualité Logicielle
 
+## **Groupe :** Ikram, Maëva, Julie, Lokeshwaran
+
 ## Technologies utilisées
 - **Backend:** ASP.NET Core (C#)
 - **Frontend:** HTML, CSS, JS avec utilisation du framework Tailwind CSS.
@@ -17,7 +19,7 @@
 
 ## Compétences
 - **Ikram:** Pas de préférence, ne connais pas C#, connais
-- **Maëva:** Préférence front, connais 
+- **Maëva:** Préférence front, connais techno front
 - **Julie:** Préférence back, connais pas C#
 - **Lokeshwaran:** : Préférence back, ne connais pas C#
 
