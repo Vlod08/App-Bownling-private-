@@ -1,6 +1,6 @@
 # Qualité Logicielle
 
-## **Groupe :** Ikram, Maëva, Julie, Lokeshwaran
+## **Groupe :** Ikram Achali, Maëva Burillo, Julie Dornat, Lokeshwaran Vengadabady
 
 ## Technologies utilisées
 - **Backend:** ASP.NET Core (C#)
