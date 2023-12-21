@@ -19,17 +19,7 @@ namespace App_Bowling.Models
 
 
     }
-    public class Joueur
-    {
-        public Joueur(string nom) { name = nom; }
-        private string name;
 
-        public string Name
-        {
-            set { name = value; }
-            get { return name; }
-        }
-    }
 
     public class Score
     {
@@ -112,6 +102,32 @@ namespace App_Bowling.Models
             total[ind - 1] = frames[ind].T1 + 10;
             spareStreak = 0;
         }
+
+        public List<Frame> Frames {
+            set { frames = value; }
+            get {  return frames; }
+        }
+
+    }
+
+    public class Joueur
+    {
+        public Joueur(string nom) { name = nom; }
+
+        private string name;
+        private Score scores;
+
+        public string Name
+        {
+            set { name = value; }
+            get { return name; }
+        }
+
+        public Score Scores
+        {
+            get { return scores; }
+            set { scores = value; }
+        }
     }
 
     public class Partie
@@ -158,13 +174,18 @@ namespace App_Bowling.Models
             trouverGagnant();
         }*/
 
-        private Dictionary<string, Score> scores;
+        public List<Joueur> Joueurs {
+            set { joueurs = value; }
+            get { return joueurs;  }
+        } 
 
         private List<Joueur> joueurs;
 
         private string gagnant;
 
         bool gameOver;
+
+
     }
     public class MVCModel
     {
