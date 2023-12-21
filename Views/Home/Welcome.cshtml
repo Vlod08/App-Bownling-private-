@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Let's Play Bowling Together</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+
+        form {
+            background-color: #ffffff;
+            padding: 20px;
+            margin: 20px auto;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        label, input, button {
+            display: block;
+            width: 90%;
+            margin: 10px auto;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            button:hover {
+                background-color: #45a049;
+            }
+    </style>
+
+</head>
+
+<body>
+    <h1>Let's Play Bowling Together</h1>
+
+    <form id="bowlingForm" action="" method="post">
+        <div>
+            <label for="frameNumber">Nombre de Frames :</label>
+            <input type="number" id="frameNumber" name="frameNumber" min="1" max="10">
+        </div>
+
+        <div>
+            <label for="playerName">Pseudo du Joueur :</label>
+            <input type="text" id="playerName" name="playerName">
+        </div>
+
+        <div>
+            <button type="button" id="addPlayerButton">+</button>
+        </div>
+
+       
+        <div>
+            <button type="submit">Start Playing</button>
+        </div>
+    </form>
+</body>
+</html>
